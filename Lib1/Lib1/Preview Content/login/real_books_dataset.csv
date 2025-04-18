@@ -1,0 +1,1001 @@
+book_id,title,author,isbn,category,language,publisher,published_year,shelf_location,is_available,status,copies
+1,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D8,No,Damaged,4
+2,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D1,No,Active,1
+3,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A8,Yes,Damaged,2
+4,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E6,No,Damaged,7
+5,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E10,No,Lost,3
+6,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C9,No,Damaged,5
+7,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B10,Yes,Lost,1
+8,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A10,Yes,Active,3
+9,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,D8,No,Damaged,5
+10,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E6,Yes,Damaged,2
+11,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C5,Yes,Damaged,9
+12,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A6,No,Damaged,5
+13,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E2,Yes,Active,6
+14,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,D3,Yes,Lost,3
+15,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E6,No,Lost,6
+16,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E8,No,Lost,8
+17,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C8,Yes,Lost,6
+18,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A6,Yes,Damaged,3
+19,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A5,No,Damaged,4
+20,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E4,Yes,Damaged,1
+21,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D2,No,Lost,1
+22,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E6,No,Lost,9
+23,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B9,No,Damaged,3
+24,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B10,No,Lost,3
+25,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C2,No,Lost,1
+26,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E2,Yes,Lost,9
+27,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B2,Yes,Lost,6
+28,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,C8,Yes,Damaged,10
+29,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C6,Yes,Damaged,10
+30,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A9,No,Lost,8
+31,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D5,Yes,Lost,8
+32,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E10,No,Damaged,3
+33,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A9,No,Lost,4
+34,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C8,No,Lost,4
+35,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D6,No,Active,9
+36,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B2,No,Active,10
+37,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,A5,No,Active,2
+38,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D4,Yes,Damaged,8
+39,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,C6,No,Damaged,7
+40,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D5,Yes,Active,6
+41,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E7,Yes,Active,9
+42,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B1,No,Lost,10
+43,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E10,No,Active,7
+44,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A4,Yes,Lost,8
+45,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B7,No,Lost,10
+46,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C5,No,Damaged,1
+47,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E4,No,Lost,8
+48,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C10,Yes,Active,4
+49,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D6,No,Active,1
+50,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A10,Yes,Lost,1
+51,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E10,No,Lost,8
+52,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B8,No,Lost,1
+53,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,D5,No,Damaged,2
+54,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,A1,No,Damaged,3
+55,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E3,No,Damaged,3
+56,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E4,No,Damaged,5
+57,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,C9,Yes,Lost,4
+58,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B9,No,Active,10
+59,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B7,Yes,Lost,10
+60,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E7,Yes,Active,9
+61,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D9,No,Lost,3
+62,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B2,No,Lost,2
+63,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C1,No,Lost,4
+64,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C7,Yes,Lost,1
+65,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A8,Yes,Damaged,7
+66,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E7,Yes,Lost,8
+67,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A2,Yes,Lost,6
+68,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E7,Yes,Active,10
+69,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C8,No,Active,6
+70,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D4,No,Damaged,5
+71,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,C6,Yes,Active,10
+72,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C6,No,Lost,7
+73,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B8,No,Active,2
+74,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A3,Yes,Damaged,6
+75,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A2,No,Damaged,9
+76,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,A5,No,Lost,1
+77,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C10,No,Lost,9
+78,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E9,Yes,Damaged,3
+79,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B9,Yes,Active,7
+80,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B1,Yes,Lost,1
+81,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,C7,No,Damaged,9
+82,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B7,Yes,Lost,9
+83,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E5,Yes,Damaged,10
+84,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B4,Yes,Active,10
+85,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E4,No,Lost,4
+86,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D2,Yes,Active,10
+87,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B6,No,Lost,1
+88,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A2,No,Damaged,9
+89,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D8,No,Damaged,8
+90,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B7,No,Lost,7
+91,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C1,Yes,Active,9
+92,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B2,No,Lost,5
+93,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,C8,Yes,Damaged,9
+94,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C8,Yes,Active,4
+95,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,C9,No,Active,3
+96,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A5,Yes,Damaged,8
+97,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B2,No,Lost,2
+98,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B3,Yes,Active,9
+99,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A5,Yes,Lost,2
+100,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B1,Yes,Damaged,3
+101,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C9,Yes,Damaged,8
+102,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C3,Yes,Damaged,6
+103,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A6,No,Damaged,5
+104,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B1,Yes,Active,2
+105,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D7,No,Active,7
+106,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B9,Yes,Damaged,2
+107,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A6,No,Lost,3
+108,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,C2,No,Active,2
+109,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C6,Yes,Damaged,8
+110,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B6,Yes,Damaged,10
+111,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E7,Yes,Active,9
+112,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A1,No,Damaged,10
+113,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E8,No,Active,5
+114,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C9,No,Damaged,2
+115,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A9,Yes,Lost,6
+116,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E7,No,Lost,10
+117,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B1,Yes,Damaged,1
+118,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C1,Yes,Active,3
+119,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E1,No,Active,3
+120,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B2,No,Damaged,7
+121,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B10,Yes,Damaged,5
+122,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,A5,Yes,Damaged,3
+123,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D3,Yes,Active,3
+124,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E7,Yes,Damaged,2
+125,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A1,Yes,Lost,1
+126,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E5,No,Lost,9
+127,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C7,No,Active,8
+128,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B5,Yes,Active,2
+129,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D4,No,Lost,1
+130,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D2,Yes,Lost,5
+131,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E6,Yes,Lost,8
+132,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E2,Yes,Active,2
+133,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,C1,No,Damaged,6
+134,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B7,No,Active,2
+135,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B8,Yes,Active,4
+136,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B4,Yes,Damaged,1
+137,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B10,No,Active,4
+138,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B8,Yes,Damaged,1
+139,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A9,No,Lost,2
+140,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D5,No,Damaged,5
+141,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,D3,No,Active,7
+142,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E4,No,Damaged,1
+143,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E6,Yes,Lost,6
+144,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,C5,Yes,Damaged,1
+145,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C8,Yes,Damaged,4
+146,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B2,Yes,Damaged,9
+147,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C7,No,Damaged,7
+148,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C10,Yes,Active,4
+149,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A5,No,Damaged,1
+150,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D7,Yes,Lost,3
+151,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,C3,Yes,Lost,4
+152,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,A4,No,Damaged,4
+153,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E6,No,Lost,8
+154,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,D3,No,Active,6
+155,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E8,No,Active,4
+156,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C3,Yes,Damaged,9
+157,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A5,Yes,Damaged,7
+158,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A2,No,Damaged,6
+159,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B5,No,Active,3
+160,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B2,Yes,Damaged,7
+161,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C7,Yes,Active,4
+162,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A10,No,Damaged,8
+163,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,C7,No,Active,1
+164,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,D7,Yes,Active,6
+165,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D1,No,Lost,10
+166,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E2,No,Active,2
+167,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E2,No,Active,2
+168,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,D5,No,Lost,2
+169,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,A6,No,Lost,7
+170,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A9,No,Lost,1
+171,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B1,No,Lost,3
+172,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E5,No,Lost,9
+173,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D1,Yes,Lost,10
+174,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,C8,No,Lost,4
+175,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,C9,Yes,Active,6
+176,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E10,No,Damaged,1
+177,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,C8,Yes,Active,1
+178,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A8,No,Lost,7
+179,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C1,Yes,Active,2
+180,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C1,Yes,Damaged,1
+181,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E8,Yes,Active,2
+182,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E9,No,Lost,3
+183,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D6,No,Lost,2
+184,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,A4,No,Lost,5
+185,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,C6,No,Active,8
+186,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B6,Yes,Lost,5
+187,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A1,No,Active,4
+188,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E8,No,Lost,9
+189,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E6,No,Damaged,8
+190,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B3,Yes,Active,3
+191,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E2,Yes,Lost,10
+192,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A3,No,Damaged,3
+193,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B4,No,Damaged,8
+194,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,C8,Yes,Lost,1
+195,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,C7,Yes,Damaged,5
+196,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B9,Yes,Damaged,1
+197,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,C9,Yes,Damaged,3
+198,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E6,No,Active,8
+199,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B7,Yes,Damaged,5
+200,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D1,No,Lost,2
+201,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C6,No,Active,1
+202,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E7,No,Damaged,6
+203,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E9,No,Lost,1
+204,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B4,No,Active,4
+205,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E1,Yes,Lost,5
+206,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E6,No,Damaged,5
+207,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,D10,No,Damaged,10
+208,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B10,Yes,Active,7
+209,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A8,Yes,Lost,5
+210,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C3,Yes,Lost,8
+211,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B4,Yes,Lost,10
+212,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E4,No,Damaged,10
+213,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B5,Yes,Damaged,6
+214,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,D1,Yes,Damaged,8
+215,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D7,No,Damaged,1
+216,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D10,No,Active,2
+217,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,D6,Yes,Lost,1
+218,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A10,Yes,Active,8
+219,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B2,Yes,Lost,3
+220,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B5,Yes,Lost,10
+221,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C5,No,Lost,7
+222,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A6,Yes,Active,8
+223,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E1,No,Damaged,9
+224,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C7,Yes,Active,1
+225,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B4,Yes,Damaged,6
+226,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B8,Yes,Lost,4
+227,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D1,No,Active,7
+228,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C7,Yes,Active,2
+229,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D2,Yes,Active,3
+230,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,D3,No,Active,9
+231,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,D5,No,Damaged,7
+232,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,A8,Yes,Damaged,3
+233,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A1,No,Lost,10
+234,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E4,No,Active,8
+235,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E10,No,Active,9
+236,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C9,Yes,Active,3
+237,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D1,No,Lost,10
+238,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,A1,Yes,Damaged,10
+239,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E4,No,Lost,7
+240,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C6,No,Damaged,2
+241,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C3,Yes,Lost,9
+242,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E7,Yes,Active,9
+243,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B3,No,Damaged,1
+244,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B9,No,Active,2
+245,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C9,Yes,Damaged,2
+246,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C9,Yes,Damaged,2
+247,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E10,No,Active,10
+248,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,A10,No,Lost,10
+249,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D9,Yes,Active,4
+250,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B10,No,Active,9
+251,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A6,No,Active,4
+252,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,C2,Yes,Active,9
+253,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B4,No,Lost,2
+254,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E6,Yes,Lost,8
+255,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A9,Yes,Damaged,4
+256,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A2,Yes,Active,9
+257,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,C10,Yes,Damaged,10
+258,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,A9,Yes,Damaged,2
+259,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C3,No,Lost,9
+260,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D8,Yes,Lost,4
+261,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E2,Yes,Lost,3
+262,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D2,No,Damaged,2
+263,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,A5,Yes,Damaged,10
+264,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,D10,Yes,Active,2
+265,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A8,Yes,Active,5
+266,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A10,No,Lost,6
+267,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D5,No,Active,8
+268,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B6,No,Active,7
+269,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E5,Yes,Lost,4
+270,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D1,No,Lost,3
+271,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C4,Yes,Active,4
+272,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A1,Yes,Damaged,2
+273,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D4,Yes,Active,8
+274,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C6,Yes,Active,10
+275,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D9,No,Lost,4
+276,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E4,No,Active,4
+277,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,C6,No,Damaged,1
+278,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E7,Yes,Active,4
+279,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B8,Yes,Damaged,7
+280,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C6,No,Lost,10
+281,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A5,Yes,Lost,9
+282,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A9,Yes,Damaged,2
+283,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C1,Yes,Active,10
+284,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,A10,No,Damaged,5
+285,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A7,Yes,Lost,3
+286,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B9,No,Active,4
+287,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E10,Yes,Active,2
+288,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B7,Yes,Active,5
+289,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E3,No,Damaged,10
+290,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B2,Yes,Lost,9
+291,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E1,Yes,Active,6
+292,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D8,No,Damaged,10
+293,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B9,No,Lost,4
+294,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,C2,No,Lost,2
+295,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C4,Yes,Lost,2
+296,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,A7,No,Damaged,3
+297,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E10,No,Active,2
+298,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A7,Yes,Lost,9
+299,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B2,Yes,Damaged,10
+300,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D9,No,Lost,5
+301,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E4,Yes,Lost,9
+302,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C9,No,Lost,8
+303,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A2,No,Damaged,7
+304,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,D4,Yes,Active,3
+305,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,C10,No,Lost,9
+306,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C8,Yes,Active,4
+307,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B8,Yes,Active,2
+308,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D8,Yes,Damaged,5
+309,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E8,Yes,Damaged,9
+310,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C8,No,Lost,6
+311,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B2,Yes,Lost,8
+312,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,A7,No,Damaged,5
+313,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C7,Yes,Active,7
+314,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E5,Yes,Lost,5
+315,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,C7,Yes,Lost,7
+316,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D8,No,Damaged,6
+317,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B4,Yes,Lost,6
+318,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D5,No,Lost,6
+319,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E5,No,Damaged,1
+320,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B1,No,Lost,2
+321,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A10,No,Active,6
+322,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B2,Yes,Damaged,9
+323,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E9,Yes,Active,9
+324,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,A1,Yes,Lost,7
+325,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A8,Yes,Active,6
+326,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B3,Yes,Damaged,8
+327,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C5,Yes,Damaged,9
+328,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D5,No,Active,2
+329,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D5,No,Lost,7
+330,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E4,Yes,Active,6
+331,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E8,No,Damaged,1
+332,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A1,No,Active,3
+333,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D1,Yes,Lost,1
+334,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B10,No,Damaged,7
+335,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B7,No,Damaged,9
+336,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C6,Yes,Lost,3
+337,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,A1,Yes,Damaged,4
+338,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,C5,Yes,Active,10
+339,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A9,No,Lost,8
+340,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C3,Yes,Active,10
+341,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D4,No,Active,8
+342,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D3,No,Active,5
+343,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B10,No,Lost,6
+344,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,D8,No,Damaged,9
+345,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B2,Yes,Lost,3
+346,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A1,Yes,Damaged,1
+347,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E6,Yes,Active,1
+348,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B4,Yes,Active,7
+349,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E3,No,Lost,4
+350,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E10,No,Active,5
+351,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E8,No,Lost,2
+352,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C3,Yes,Damaged,7
+353,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A6,No,Lost,10
+354,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,D10,No,Lost,10
+355,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A6,No,Lost,7
+356,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A7,Yes,Active,5
+357,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E8,Yes,Damaged,9
+358,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E3,No,Lost,10
+359,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C3,Yes,Active,6
+360,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C5,No,Active,4
+361,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,C4,No,Active,8
+362,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E10,Yes,Lost,2
+363,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D9,No,Active,2
+364,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C3,Yes,Lost,7
+365,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A9,No,Active,7
+366,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B6,Yes,Damaged,9
+367,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C3,Yes,Active,10
+368,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B4,Yes,Active,10
+369,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B1,No,Active,8
+370,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B10,Yes,Damaged,10
+371,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B6,Yes,Lost,2
+372,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A5,No,Lost,5
+373,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D9,No,Active,6
+374,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B7,No,Damaged,6
+375,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B6,Yes,Lost,1
+376,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E10,No,Lost,5
+377,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B2,No,Active,7
+378,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E6,Yes,Lost,2
+379,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D9,No,Damaged,2
+380,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E3,Yes,Active,7
+381,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D7,Yes,Damaged,10
+382,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B8,Yes,Active,9
+383,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C9,Yes,Active,10
+384,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A6,Yes,Active,6
+385,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A3,No,Active,10
+386,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A10,No,Lost,3
+387,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E2,Yes,Damaged,4
+388,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A9,Yes,Damaged,2
+389,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D2,Yes,Damaged,10
+390,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D3,No,Active,8
+391,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E7,No,Damaged,10
+392,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D6,Yes,Lost,6
+393,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B7,Yes,Lost,8
+394,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E5,Yes,Active,7
+395,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A3,No,Damaged,8
+396,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E8,Yes,Active,6
+397,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D5,Yes,Damaged,4
+398,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A3,Yes,Active,9
+399,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,D2,Yes,Active,6
+400,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C3,Yes,Lost,4
+401,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A1,No,Lost,1
+402,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B1,Yes,Active,9
+403,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B3,Yes,Active,4
+404,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,C10,No,Lost,5
+405,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C10,Yes,Active,2
+406,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B1,No,Damaged,3
+407,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D2,No,Lost,1
+408,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E7,No,Active,10
+409,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E2,No,Active,1
+410,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A10,Yes,Lost,1
+411,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E6,Yes,Active,1
+412,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C3,No,Lost,4
+413,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D10,No,Lost,1
+414,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C3,No,Active,3
+415,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B6,Yes,Damaged,5
+416,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B7,Yes,Damaged,1
+417,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C5,No,Active,2
+418,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E10,Yes,Damaged,1
+419,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B10,Yes,Active,1
+420,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E10,Yes,Lost,8
+421,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A5,Yes,Lost,2
+422,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E10,No,Active,9
+423,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D3,Yes,Active,6
+424,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A5,No,Damaged,1
+425,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D4,No,Lost,6
+426,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E1,No,Damaged,8
+427,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D1,No,Lost,3
+428,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E1,No,Damaged,2
+429,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,D7,No,Lost,8
+430,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B6,No,Lost,1
+431,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E3,No,Damaged,1
+432,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D9,No,Damaged,9
+433,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E4,No,Lost,9
+434,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B9,Yes,Damaged,9
+435,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A5,No,Damaged,8
+436,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E8,Yes,Damaged,7
+437,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D4,No,Lost,1
+438,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E7,Yes,Active,4
+439,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D9,No,Damaged,9
+440,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D3,Yes,Damaged,8
+441,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C8,Yes,Active,9
+442,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E6,Yes,Active,2
+443,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E1,No,Active,9
+444,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D7,Yes,Active,7
+445,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C10,No,Active,7
+446,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D7,Yes,Lost,6
+447,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A6,No,Active,4
+448,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,C5,No,Active,7
+449,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A10,No,Active,4
+450,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E8,No,Lost,8
+451,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C5,No,Damaged,5
+452,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E10,Yes,Active,2
+453,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E8,No,Active,10
+454,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B10,Yes,Active,7
+455,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B6,No,Damaged,1
+456,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B3,No,Damaged,2
+457,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A10,Yes,Damaged,10
+458,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E3,No,Damaged,10
+459,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C7,No,Damaged,6
+460,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A1,Yes,Active,4
+461,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D10,No,Damaged,10
+462,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E6,No,Lost,9
+463,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B5,No,Active,4
+464,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D10,Yes,Active,9
+465,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C9,No,Damaged,2
+466,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B2,No,Damaged,4
+467,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C5,Yes,Damaged,5
+468,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B10,Yes,Damaged,2
+469,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A10,No,Lost,6
+470,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A6,Yes,Lost,2
+471,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A9,No,Lost,10
+472,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B1,No,Active,4
+473,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C4,No,Active,10
+474,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E5,Yes,Lost,9
+475,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C1,Yes,Damaged,4
+476,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E10,Yes,Lost,8
+477,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B1,Yes,Lost,7
+478,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B4,Yes,Active,8
+479,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,C9,Yes,Lost,5
+480,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A4,No,Active,1
+481,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A8,No,Active,5
+482,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,C8,No,Active,2
+483,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E8,Yes,Lost,3
+484,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C6,Yes,Lost,8
+485,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D9,Yes,Damaged,2
+486,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B3,Yes,Active,9
+487,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C6,Yes,Lost,7
+488,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E6,No,Lost,10
+489,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D2,No,Damaged,3
+490,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A5,No,Damaged,2
+491,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A8,Yes,Active,6
+492,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A6,No,Damaged,4
+493,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A9,No,Active,5
+494,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B3,No,Lost,1
+495,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E4,No,Damaged,10
+496,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E3,Yes,Lost,9
+497,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,C2,No,Damaged,7
+498,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,D5,No,Lost,9
+499,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D10,No,Damaged,1
+500,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E10,Yes,Active,1
+501,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D9,No,Damaged,9
+502,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E10,No,Lost,4
+503,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A7,No,Active,3
+504,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E7,No,Damaged,5
+505,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E9,Yes,Active,6
+506,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C4,No,Lost,4
+507,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A4,Yes,Lost,3
+508,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,D8,Yes,Lost,6
+509,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E6,No,Damaged,9
+510,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A10,Yes,Active,1
+511,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E7,Yes,Active,1
+512,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E1,No,Lost,10
+513,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D8,No,Damaged,9
+514,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A1,No,Active,6
+515,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C4,Yes,Active,4
+516,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,C10,Yes,Active,8
+517,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D3,No,Lost,2
+518,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,C2,Yes,Active,1
+519,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D7,Yes,Active,1
+520,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C1,No,Lost,8
+521,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B4,No,Damaged,7
+522,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A1,Yes,Active,3
+523,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B5,Yes,Active,7
+524,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A9,No,Active,5
+525,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B2,No,Lost,1
+526,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E4,No,Lost,5
+527,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,C10,Yes,Active,2
+528,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E10,Yes,Lost,4
+529,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E6,No,Active,2
+530,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C5,Yes,Active,8
+531,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B10,Yes,Active,6
+532,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A2,Yes,Lost,5
+533,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B2,Yes,Lost,3
+534,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C1,Yes,Lost,4
+535,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,A4,No,Lost,9
+536,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D2,Yes,Active,10
+537,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,A3,No,Lost,4
+538,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D4,No,Active,10
+539,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B1,Yes,Lost,6
+540,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B8,Yes,Lost,7
+541,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C3,No,Damaged,7
+542,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A9,Yes,Lost,7
+543,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E7,Yes,Damaged,7
+544,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D9,No,Active,8
+545,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,D3,Yes,Active,3
+546,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D8,No,Lost,10
+547,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B6,No,Active,9
+548,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E2,No,Damaged,1
+549,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E10,No,Lost,10
+550,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C9,Yes,Active,7
+551,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A8,Yes,Active,10
+552,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A10,No,Lost,8
+553,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B4,Yes,Active,10
+554,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A4,No,Active,3
+555,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D8,No,Active,7
+556,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C10,Yes,Lost,2
+557,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B8,No,Damaged,4
+558,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D9,No,Lost,9
+559,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A8,No,Active,3
+560,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D10,No,Damaged,8
+561,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E2,Yes,Lost,10
+562,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B2,Yes,Damaged,7
+563,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A6,No,Active,1
+564,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E5,No,Damaged,6
+565,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A5,No,Lost,7
+566,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,C5,Yes,Damaged,1
+567,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A3,Yes,Damaged,9
+568,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E9,Yes,Active,2
+569,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A5,No,Active,9
+570,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E10,No,Lost,3
+571,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B1,Yes,Active,2
+572,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B8,No,Damaged,4
+573,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C3,Yes,Lost,6
+574,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,C9,No,Active,9
+575,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B9,Yes,Lost,6
+576,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B7,No,Active,8
+577,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A5,No,Lost,7
+578,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D5,No,Active,6
+579,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B3,Yes,Damaged,9
+580,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E3,Yes,Damaged,9
+581,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C5,No,Damaged,3
+582,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E7,No,Active,3
+583,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D4,Yes,Lost,8
+584,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C4,No,Lost,9
+585,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D1,Yes,Active,3
+586,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E2,Yes,Damaged,1
+587,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,C7,No,Active,10
+588,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C6,Yes,Damaged,7
+589,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B5,No,Damaged,9
+590,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,D2,No,Damaged,3
+591,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A1,Yes,Damaged,2
+592,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E6,Yes,Lost,10
+593,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,C3,Yes,Lost,4
+594,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C4,No,Damaged,1
+595,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C7,No,Lost,6
+596,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E3,Yes,Active,1
+597,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,A9,Yes,Active,9
+598,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,D1,No,Damaged,8
+599,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B8,Yes,Lost,5
+600,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A7,Yes,Lost,3
+601,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C8,Yes,Damaged,2
+602,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A1,No,Damaged,7
+603,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,D1,Yes,Active,8
+604,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C1,Yes,Lost,6
+605,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A7,No,Damaged,10
+606,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A10,Yes,Damaged,6
+607,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,C7,Yes,Active,10
+608,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A9,No,Lost,9
+609,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C6,No,Active,5
+610,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,C7,Yes,Active,3
+611,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B5,No,Damaged,1
+612,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E9,Yes,Lost,3
+613,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C5,Yes,Active,8
+614,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E4,Yes,Damaged,6
+615,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E4,Yes,Damaged,3
+616,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C1,Yes,Active,8
+617,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E4,Yes,Lost,5
+618,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E2,Yes,Active,7
+619,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E8,No,Damaged,1
+620,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A3,Yes,Damaged,1
+621,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B4,Yes,Lost,8
+622,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E5,No,Lost,1
+623,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E3,Yes,Active,7
+624,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B6,Yes,Active,7
+625,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E1,No,Lost,3
+626,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D8,Yes,Damaged,10
+627,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A6,Yes,Active,9
+628,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B3,Yes,Active,8
+629,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,D2,No,Lost,1
+630,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A6,Yes,Damaged,6
+631,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A2,No,Lost,4
+632,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B8,No,Lost,6
+633,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A6,No,Damaged,7
+634,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D9,Yes,Damaged,10
+635,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E2,No,Active,7
+636,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B10,Yes,Damaged,10
+637,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D5,Yes,Lost,4
+638,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A1,No,Active,1
+639,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C10,Yes,Damaged,3
+640,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B8,No,Lost,6
+641,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E4,Yes,Active,3
+642,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B7,No,Lost,5
+643,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B7,Yes,Lost,8
+644,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B6,No,Active,2
+645,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D3,No,Lost,7
+646,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,C4,Yes,Lost,1
+647,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E3,No,Damaged,7
+648,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E6,No,Damaged,8
+649,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A3,Yes,Lost,8
+650,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D9,Yes,Lost,5
+651,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E6,Yes,Active,2
+652,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B6,No,Damaged,3
+653,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B5,Yes,Active,4
+654,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,D9,Yes,Active,6
+655,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B1,No,Active,1
+656,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,D6,No,Lost,1
+657,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E2,Yes,Lost,8
+658,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C6,Yes,Damaged,1
+659,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,D1,Yes,Damaged,5
+660,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C9,Yes,Active,6
+661,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C2,No,Damaged,2
+662,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,D10,Yes,Lost,5
+663,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B5,Yes,Damaged,3
+664,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A5,Yes,Active,10
+665,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B10,No,Active,5
+666,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A7,No,Damaged,6
+667,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B2,Yes,Damaged,4
+668,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C3,No,Damaged,9
+669,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E7,No,Damaged,5
+670,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A6,No,Lost,6
+671,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D6,No,Damaged,8
+672,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C6,No,Damaged,3
+673,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A6,Yes,Active,8
+674,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D2,Yes,Lost,9
+675,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C4,Yes,Damaged,2
+676,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E3,Yes,Damaged,2
+677,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,D6,No,Active,5
+678,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E4,Yes,Active,2
+679,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A7,No,Active,9
+680,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A1,No,Active,3
+681,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E6,Yes,Lost,4
+682,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,D10,No,Lost,8
+683,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D2,Yes,Lost,1
+684,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D4,No,Active,1
+685,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E10,No,Damaged,9
+686,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D7,No,Active,7
+687,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E10,No,Active,3
+688,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B4,No,Lost,10
+689,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E7,Yes,Damaged,6
+690,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C10,Yes,Damaged,2
+691,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D4,Yes,Active,3
+692,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E6,Yes,Damaged,4
+693,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A2,Yes,Damaged,10
+694,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,D3,No,Active,8
+695,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E9,No,Active,3
+696,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E4,No,Lost,8
+697,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,D8,Yes,Damaged,7
+698,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C8,Yes,Lost,10
+699,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,D5,Yes,Damaged,7
+700,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D5,No,Active,7
+701,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E7,Yes,Lost,10
+702,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D3,No,Lost,1
+703,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D4,No,Damaged,3
+704,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A5,Yes,Active,8
+705,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,C4,Yes,Lost,4
+706,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E2,No,Active,9
+707,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B3,No,Damaged,8
+708,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C4,No,Damaged,4
+709,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D3,No,Damaged,1
+710,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C10,Yes,Active,1
+711,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E4,Yes,Lost,10
+712,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A5,Yes,Lost,9
+713,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B5,Yes,Damaged,1
+714,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C10,Yes,Active,4
+715,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C4,No,Active,4
+716,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B8,Yes,Lost,9
+717,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B6,No,Active,1
+718,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B5,Yes,Lost,6
+719,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,D8,Yes,Damaged,9
+720,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B3,Yes,Active,9
+721,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,D7,No,Lost,3
+722,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A6,Yes,Active,2
+723,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A4,No,Active,6
+724,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C5,Yes,Lost,8
+725,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D1,Yes,Active,1
+726,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,C8,Yes,Active,8
+727,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E1,Yes,Active,8
+728,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C2,No,Active,3
+729,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D7,Yes,Damaged,6
+730,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C4,No,Active,2
+731,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D8,No,Damaged,3
+732,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B3,No,Damaged,5
+733,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A8,Yes,Damaged,9
+734,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C2,No,Damaged,4
+735,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B2,Yes,Lost,9
+736,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,C8,No,Lost,3
+737,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E2,Yes,Lost,2
+738,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D7,No,Damaged,8
+739,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E10,No,Active,8
+740,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C4,No,Active,1
+741,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E5,Yes,Active,5
+742,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D2,No,Active,7
+743,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,D8,No,Damaged,4
+744,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B5,No,Damaged,10
+745,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E7,No,Active,2
+746,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E2,Yes,Active,5
+747,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E10,Yes,Damaged,9
+748,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E6,No,Damaged,7
+749,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D7,No,Active,10
+750,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B5,No,Damaged,8
+751,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D6,No,Damaged,4
+752,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D2,Yes,Active,6
+753,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B1,Yes,Lost,5
+754,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A5,Yes,Active,3
+755,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C2,No,Lost,3
+756,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B7,No,Damaged,7
+757,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A7,No,Active,1
+758,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A9,Yes,Lost,8
+759,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,C9,No,Active,2
+760,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B3,Yes,Lost,4
+761,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,C3,Yes,Active,2
+762,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C1,No,Active,3
+763,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B1,No,Lost,2
+764,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,A3,No,Active,7
+765,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E8,No,Active,10
+766,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E4,No,Lost,5
+767,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A10,No,Active,9
+768,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E8,Yes,Active,10
+769,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D10,Yes,Lost,2
+770,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,B9,Yes,Lost,10
+771,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,D2,Yes,Lost,3
+772,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,D9,Yes,Active,2
+773,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D2,No,Active,2
+774,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E4,No,Active,6
+775,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C3,No,Lost,6
+776,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B3,No,Active,1
+777,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E5,No,Damaged,5
+778,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,C9,Yes,Lost,7
+779,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D6,Yes,Lost,2
+780,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C7,Yes,Active,10
+781,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E8,Yes,Active,5
+782,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E5,Yes,Damaged,2
+783,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A9,Yes,Active,5
+784,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,C5,Yes,Lost,1
+785,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B6,Yes,Lost,6
+786,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B3,Yes,Lost,8
+787,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A9,No,Damaged,3
+788,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D6,Yes,Active,1
+789,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D1,No,Active,9
+790,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B7,No,Active,6
+791,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B4,No,Damaged,5
+792,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C1,Yes,Lost,1
+793,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B4,Yes,Lost,8
+794,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A4,No,Lost,4
+795,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E9,No,Damaged,9
+796,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B1,No,Active,8
+797,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E1,Yes,Damaged,4
+798,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D8,No,Lost,8
+799,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B6,Yes,Lost,6
+800,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B4,No,Damaged,2
+801,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A9,Yes,Active,3
+802,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E10,No,Lost,4
+803,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D6,No,Lost,2
+804,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A8,No,Lost,5
+805,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A10,Yes,Damaged,3
+806,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,D9,Yes,Active,10
+807,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E2,Yes,Lost,7
+808,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B1,Yes,Lost,1
+809,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C2,No,Active,10
+810,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E2,Yes,Lost,3
+811,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E7,No,Active,6
+812,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C10,No,Damaged,9
+813,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D1,Yes,Active,1
+814,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B5,No,Damaged,7
+815,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A1,Yes,Lost,1
+816,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,A7,No,Lost,8
+817,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E5,Yes,Active,5
+818,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D3,No,Active,6
+819,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E4,No,Lost,8
+820,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A4,Yes,Lost,3
+821,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E7,Yes,Lost,8
+822,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A9,Yes,Lost,8
+823,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D5,Yes,Lost,4
+824,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B10,Yes,Damaged,7
+825,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E5,Yes,Lost,8
+826,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,A6,Yes,Active,1
+827,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A1,No,Damaged,2
+828,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E9,Yes,Damaged,4
+829,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A1,Yes,Damaged,9
+830,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E6,No,Damaged,8
+831,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B9,Yes,Active,7
+832,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A10,No,Lost,2
+833,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B6,Yes,Damaged,7
+834,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E8,Yes,Lost,4
+835,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,D10,No,Active,4
+836,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C8,Yes,Active,1
+837,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C1,No,Damaged,4
+838,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B7,No,Damaged,10
+839,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C7,Yes,Lost,8
+840,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D2,Yes,Lost,2
+841,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A5,No,Lost,3
+842,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A3,No,Lost,2
+843,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E7,Yes,Active,7
+844,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C2,No,Damaged,5
+845,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C7,Yes,Active,3
+846,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B1,No,Damaged,2
+847,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E8,Yes,Lost,5
+848,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B9,No,Lost,7
+849,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,D6,No,Active,8
+850,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C6,No,Lost,10
+851,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B4,Yes,Damaged,6
+852,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A1,No,Damaged,7
+853,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,A5,Yes,Lost,5
+854,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A7,Yes,Lost,5
+855,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,A1,Yes,Lost,10
+856,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A9,Yes,Lost,1
+857,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,C1,Yes,Lost,6
+858,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B8,Yes,Damaged,1
+859,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A5,Yes,Lost,8
+860,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D8,Yes,Lost,1
+861,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D7,Yes,Damaged,2
+862,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,C9,Yes,Damaged,5
+863,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B5,Yes,Active,8
+864,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B10,Yes,Damaged,5
+865,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,D8,Yes,Active,2
+866,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,A4,Yes,Lost,2
+867,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D4,Yes,Lost,9
+868,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,C2,No,Lost,1
+869,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B7,Yes,Damaged,1
+870,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A9,No,Active,2
+871,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B3,Yes,Active,3
+872,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,C2,No,Damaged,7
+873,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B3,No,Lost,8
+874,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E6,Yes,Active,2
+875,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D5,No,Damaged,1
+876,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,D4,Yes,Lost,4
+877,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A9,Yes,Damaged,6
+878,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A4,No,Damaged,4
+879,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C7,Yes,Lost,2
+880,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A3,No,Lost,9
+881,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C4,Yes,Damaged,1
+882,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,C3,Yes,Lost,6
+883,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E6,Yes,Lost,8
+884,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B8,No,Active,2
+885,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E4,No,Damaged,9
+886,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B8,No,Damaged,1
+887,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A8,Yes,Active,4
+888,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E10,Yes,Damaged,9
+889,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,D8,Yes,Damaged,8
+890,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A6,Yes,Lost,7
+891,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D9,No,Active,1
+892,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A6,No,Damaged,6
+893,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E4,Yes,Lost,10
+894,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B9,No,Lost,10
+895,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A7,No,Lost,3
+896,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,C4,No,Active,4
+897,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,B2,Yes,Active,7
+898,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A1,No,Damaged,1
+899,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B2,No,Damaged,7
+900,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,D5,No,Damaged,10
+901,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E4,No,Lost,9
+902,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B10,Yes,Lost,9
+903,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B7,No,Lost,4
+904,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D10,Yes,Active,8
+905,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,D2,Yes,Damaged,8
+906,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D5,No,Lost,6
+907,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B4,Yes,Lost,10
+908,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B4,Yes,Damaged,1
+909,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C10,No,Damaged,6
+910,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B5,Yes,Damaged,1
+911,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C2,No,Lost,3
+912,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,C2,Yes,Active,6
+913,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E3,No,Active,3
+914,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D4,No,Damaged,6
+915,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A8,Yes,Lost,10
+916,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D2,No,Damaged,10
+917,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E9,No,Damaged,10
+918,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C10,No,Damaged,6
+919,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E8,No,Active,8
+920,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E8,Yes,Active,10
+921,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B9,Yes,Lost,5
+922,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A5,No,Lost,9
+923,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D8,Yes,Lost,9
+924,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B4,Yes,Active,6
+925,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E4,Yes,Active,7
+926,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B5,No,Lost,9
+927,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B5,Yes,Damaged,9
+928,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,C7,Yes,Damaged,5
+929,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A3,No,Lost,2
+930,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E1,Yes,Damaged,8
+931,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A4,No,Lost,1
+932,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,A2,No,Active,6
+933,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A7,No,Damaged,3
+934,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E7,No,Lost,2
+935,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D2,Yes,Active,10
+936,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B3,No,Lost,10
+937,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,A4,Yes,Active,7
+938,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B7,Yes,Lost,2
+939,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,B3,No,Damaged,1
+940,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B9,No,Active,8
+941,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B4,No,Damaged,6
+942,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,E3,No,Damaged,8
+943,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D9,No,Damaged,9
+944,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B3,Yes,Active,3
+945,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A7,Yes,Active,8
+946,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B5,No,Damaged,8
+947,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C3,Yes,Damaged,8
+948,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,C1,Yes,Damaged,2
+949,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,A2,No,Damaged,2
+950,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E8,No,Active,10
+951,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,D10,Yes,Active,3
+952,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B3,No,Lost,7
+953,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,E9,Yes,Active,1
+954,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C4,No,Damaged,5
+955,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E1,Yes,Active,4
+956,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E5,Yes,Damaged,5
+957,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A6,No,Lost,10
+958,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E8,Yes,Lost,5
+959,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,B4,No,Active,2
+960,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,A2,Yes,Damaged,2
+961,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E2,Yes,Damaged,6
+962,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,E6,Yes,Active,7
+963,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B2,Yes,Active,3
+964,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,D9,No,Lost,9
+965,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E8,Yes,Active,8
+966,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,B2,No,Lost,10
+967,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B2,Yes,Active,2
+968,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E4,Yes,Lost,9
+969,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D4,No,Active,5
+970,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E9,Yes,Damaged,1
+971,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,D10,Yes,Lost,7
+972,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,A10,Yes,Lost,4
+973,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D10,Yes,Lost,4
+974,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E10,Yes,Lost,4
+975,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D8,Yes,Active,8
+976,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C9,No,Damaged,5
+977,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,E5,No,Active,5
+978,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C4,Yes,Active,6
+979,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,D1,Yes,Active,4
+980,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,B3,No,Active,8
+981,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D1,No,Lost,7
+982,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A10,No,Lost,1
+983,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,D3,No,Lost,3
+984,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,B4,Yes,Active,7
+985,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,C5,Yes,Damaged,3
+986,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,E4,Yes,Damaged,3
+987,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,D1,Yes,Active,2
+988,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,D8,No,Active,9
+989,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,B8,No,Active,2
+990,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,D5,Yes,Active,1
+991,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,A8,Yes,Damaged,9
+992,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E9,No,Active,4
+993,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,C10,No,Lost,4
+994,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,A1,Yes,Active,6
+995,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,B1,No,Active,7
+996,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,C10,Yes,Damaged,1
+997,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,C7,No,Lost,2
+998,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,D5,Yes,Damaged,6
+999,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,A10,Yes,Lost,3
+1000,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,E4,Yes,Lost,2
