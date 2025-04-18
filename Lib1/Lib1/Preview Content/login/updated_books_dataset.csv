@@ -1,0 +1,11 @@
+book_id,title,author,isbn,category,language,publisher,published_year,shelf_location,is_available,status,copies
+1,The Lord of the Rings,J.R.R. Tolkien,9780618640157,Fantasy,English,Houghton Mifflin,1954,D8,Yes,Active,4
+2,To Kill a Mockingbird,Harper Lee,9780061120084,Fiction,English,J.B. Lippincott & Co.,1960,D1,Yes,Active,1
+3,The Great Gatsby,F. Scott Fitzgerald,9780743273565,Fiction,English,Charles Scribner's Sons,1925,A8,Yes,Active,2
+4,1984,George Orwell,9780451524935,Dystopian,English,Secker & Warburg,1949,E6,Yes,Active,7
+9,Moby-Dick,Herman Melville,9781503280786,Fiction,English,Harper & Brothers,1851,D8,Yes,Active,5
+10,War and Peace,Leo Tolstoy,9781400079988,Historical Fiction,English,The Russian Messenger,1869,E6,Yes,Active,2
+13,Harry Potter and the Sorcerer's Stone,J.K. Rowling,9780590353427,Fantasy,English,Scholastic,1997,E2,Yes,Active,6
+15,The Hobbit,J.R.R. Tolkien,9780345339683,Fantasy,English,Houghton Mifflin,1937,E6,Yes,Active,6
+24,Pride and Prejudice,Jane Austen,9781503290563,Romance,English,T. Egerton,1813,B10,Yes,Active,3
+34,The Catcher in the Rye,J.D. Salinger,9780316769488,Fiction,English,"Little, Brown and Company",1951,C8,Yes,Active,4

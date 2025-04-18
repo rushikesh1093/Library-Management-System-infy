@@ -41,156 +41,26 @@ struct MainView: View {
 }
 
 struct HomeView: View {
+    // Load books from CSV
+    private let books: [Book] = Book.loadBooksFromCSV()
+    // State for login status (placeholder, assuming login logic exists elsewhere)
+    @State private var isLoggedIn: Bool = false
+    
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 20) {
                     // Home Header
-                    VStack {
-                        Image(systemName: "house.fill")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 100, height: 100)
-                            .foregroundStyle(.blue)
-                        Text("Home")
-                            .font(.title2)
-                            .fontWeight(.semibold)
-                            .foregroundStyle(.blue)
-                    }
+                    HomeHeaderView()
                     
                     // Recent Newsletter
-                    VStack(alignment: .leading, spacing: 8) {
-                        Text("Recent Newsletter")
-                            .font(.headline)
-                            .foregroundStyle(.blue)
-                        VStack(alignment: .leading, spacing: 4) {
-                            Text(Announcement.sampleNewsletter.title)
-                                .font(.subheadline)
-                                .fontWeight(.semibold)
-                            Text(Announcement.sampleNewsletter.content)
-                                .font(.body)
-                                .foregroundStyle(.secondary)
-                            Text("Posted: \(Announcement.sampleNewsletter.date, format: .dateTime.day().month().year())")
-                                .font(.caption)
-                                .foregroundStyle(.secondary)
-                        }
-                        .padding()
-                        .background(Color.white)
-                        .clipShape(RoundedRectangle(cornerRadius: 10))
-                        .shadow(radius: 2)
-                    }
-                    .padding(.horizontal)
+                    NewsletterView()
                     
                     // Borrowed Books
-                    VStack(alignment: .leading, spacing: 8) {
-                        Text("Borrowed Books")
-                            .font(.headline)
-                            .foregroundStyle(.blue)
-                        if Book.sampleBorrowedBooks.isEmpty {
-                            Text("No books borrowed.")
-                                .font(.subheadline)
-                                .foregroundStyle(.secondary)
-                                .padding()
-                        } else {
-                            ForEach(Book.sampleBorrowedBooks) { book in
-                                HStack {
-                                    VStack(alignment: .leading) {
-                                        Text(book.title)
-                                            .font(.subheadline)
-                                            .fontWeight(.semibold)
-                                        Text(book.author)
-                                            .font(.caption)
-                                            .foregroundStyle(.secondary)
-                                    }
-                                    Spacer()
-                                    if let dueDate = book.dueDate {
-                                        Text("Due: \(dueDate, format: .dateTime.day().month())")
-                                            .font(.caption)
-                                            .foregroundStyle(.red)
-                                    }
-                                }
-                                .padding()
-                                .background(Color.white)
-                                .clipShape(RoundedRectangle(cornerRadius: 10))
-                                .shadow(radius: 2)
-                            }
-                        }
-                    }
-                    .padding(.horizontal)
+                    BorrowedBooksView(isLoggedIn: isLoggedIn)
                     
                     // Upcoming Books
-                    VStack(alignment: .leading, spacing: 8) {
-                        Text("Upcoming Books")
-                            .font(.headline)
-                            .foregroundStyle(.blue)
-                        if Book.sampleUpcomingBooks.isEmpty {
-                            Text("No upcoming books.")
-                                .font(.subheadline)
-                                .foregroundStyle(.secondary)
-                                .padding()
-                        } else {
-                            ForEach(Book.sampleUpcomingBooks) { book in
-                                HStack {
-                                    VStack(alignment: .leading) {
-                                        Text(book.title)
-                                            .font(.subheadline)
-                                            .fontWeight(.semibold)
-                                        Text(book.author)
-                                            .font(.caption)
-                                            .foregroundStyle(.secondary)
-                                    }
-                                    Spacer()
-                                    if let releaseDate = book.releaseDate {
-                                        Text("Releases: \(releaseDate, format: .dateTime.day().month())")
-                                            .font(.caption)
-                                            .foregroundStyle(.blue)
-                                    }
-                                }
-                                .padding()
-                                .background(Color.white)
-                                .clipShape(RoundedRectangle(cornerRadius: 10))
-                                .shadow(radius: 2)
-                            }
-                        }
-                    }
-                    .padding(.horizontal)
-                    
-                    // Deadline to Handover Books
-                    VStack(alignment: .leading, spacing: 8) {
-                        Text("Deadline to Handover Books")
-                            .font(.headline)
-                            .foregroundStyle(.blue)
-                        if Book.sampleBorrowedBooks.isEmpty {
-                            Text("No books due.")
-                                .font(.subheadline)
-                                .foregroundStyle(.secondary)
-                                .padding()
-                        } else {
-                            ForEach(Book.sampleBorrowedBooks.filter { $0.dueDate != nil && $0.dueDate! < Date().addingTimeInterval(86400 * 7) }) { book in
-                                HStack {
-                                    VStack(alignment: .leading) {
-                                        Text(book.title)
-                                            .font(.subheadline)
-                                            .fontWeight(.semibold)
-                                        Text(book.author)
-                                            .font(.caption)
-                                            .foregroundStyle(.secondary)
-                                    }
-                                    Spacer()
-                                    if let dueDate = book.dueDate {
-                                        Text("Due: \(dueDate, format: .dateTime.day().month())")
-                                            .font(.caption)
-                                            .foregroundStyle(.red)
-                                    }
-                                }
-                                .padding()
-                                .background(Color.white)
-                                .clipShape(RoundedRectangle(cornerRadius: 10))
-                                .shadow(radius: 2)
-                            }
-                        }
-                    }
-                    .padding(.horizontal)
+                    UpcomingBooksView(isLoggedIn: isLoggedIn)
                     
                     Spacer()
                 }
@@ -203,48 +73,150 @@ struct HomeView: View {
     }
 }
 
-struct BookingView: View {
+// Subview for the header
+struct HomeHeaderView: View {
     var body: some View {
         VStack {
-            Image(systemName: "calendar")
+            Image(systemName: "house.fill")
                 .resizable()
                 .scaledToFit()
                 .frame(width: 100, height: 100)
                 .foregroundStyle(.blue)
-            Text("Booking")
+            Text("Home")
                 .font(.title2)
                 .fontWeight(.semibold)
                 .foregroundStyle(.blue)
-            Spacer()
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.blue.opacity(0.05))
-        .navigationTitle("Booking")
     }
 }
 
-struct BooksView: View {
+// Subview for the newsletter
+struct NewsletterView: View {
     var body: some View {
-        VStack {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("Recent Newsletter")
+                .font(.headline)
+                .foregroundStyle(.blue)
+            VStack(alignment: .leading, spacing: 4) {
+                Text(Announcement.sampleNewsletter.title)
+                    .font(.subheadline)
+                    .fontWeight(.semibold)
+                Text(Announcement.sampleNewsletter.content)
+                    .font(.body)
+                    .foregroundStyle(.secondary)
+                Text("Posted: \(Announcement.sampleNewsletter.date, format: .dateTime.day().month().year())")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+            .padding()
+            .background(Color.white)
+            .clipShape(RoundedRectangle(cornerRadius: 10))
+            .shadow(radius: 2)
+        }
+        .padding(.horizontal)
+    }
+}
+
+// Subview for borrowed books
+struct BorrowedBooksView: View {
+    let isLoggedIn: Bool
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("Borrowed Books")
+                .font(.headline)
+                .foregroundStyle(.blue)
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 16) {
+                    let borrowedBooks = Book.borrowedBooks(isLoggedIn: isLoggedIn)
+                    if borrowedBooks.isEmpty {
+                        Text("No books borrowed.")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                    } else {
+                        ForEach(borrowedBooks.sorted {
+                            ($0.dueDate ?? Date.distantFuture) < ($1.dueDate ?? Date.distantFuture)
+                        }) { book in
+                            BookCardView(book: book, isUpcoming: false)
+                        }
+                    }
+                }
+            }
+        }
+        .padding(.horizontal)
+    }
+}
+
+// Subview for upcoming books
+struct UpcomingBooksView: View {
+    let isLoggedIn: Bool
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("Upcoming Books")
+                .font(.headline)
+                .foregroundStyle(.blue)
+            ScrollView(.horizontal, showsIndicators: false) {
+                HStack(spacing: 16) {
+                    let upcomingBooks = Book.upcomingBooks(isLoggedIn: isLoggedIn)
+                    if upcomingBooks.isEmpty {
+                        Text("No upcoming books.")
+                            .font(.subheadline)
+                            .foregroundStyle(.secondary)
+                    } else {
+                        ForEach(upcomingBooks.sorted {
+                            ($0.releaseDate ?? Date.distantFuture) < ($1.releaseDate ?? Date.distantFuture)
+                        }) { book in
+                            BookCardView(book: book, isUpcoming: true)
+                        }
+                    }
+                }
+            }
+        }
+        .padding(.horizontal)
+    }
+}
+
+// Reusable subview for book card
+struct BookCardView: View {
+    let book: Book
+    let isUpcoming: Bool
+    
+    var body: some View {
+        VStack(spacing: 8) {
             Image(systemName: "book.fill")
                 .resizable()
                 .scaledToFit()
-                .frame(width: 100, height: 100)
+                .frame(width: 50, height: 50)
                 .foregroundStyle(.blue)
-            Text("Books")
-                .font(.title2)
+            Text(book.title)
+                .font(.caption)
                 .fontWeight(.semibold)
-                .foregroundStyle(.blue)
-            Spacer()
+                .lineLimit(1)
+            Text(book.author)
+                .font(.caption2)
+                .foregroundStyle(.secondary)
+                .lineLimit(1)
+            if isUpcoming, let release = book.releaseDate {
+                Text("Releases: \(release, format: .dateTime.day().month())")
+                    .font(.caption2)
+                    .foregroundStyle(.blue)
+            } else if let due = book.dueDate {
+                Text("Due: \(due, format: .dateTime.day().month())")
+                    .font(.caption2)
+                    .foregroundStyle(.red)
+            }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.blue.opacity(0.05))
-        .navigationTitle("Books")
+        .frame(width: 110)
+        .padding()
+        .background(Color.white)
+        .clipShape(RoundedRectangle(cornerRadius: 10))
+        .shadow(radius: 2)
     }
 }
 
-
-
-#Preview {
-    MainView()
+struct MainView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainView()
+    }
 }
