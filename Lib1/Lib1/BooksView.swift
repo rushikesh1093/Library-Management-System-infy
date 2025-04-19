@@ -1,12 +1,19 @@
 import SwiftUI
 
-// Shared model to manage books and their copy counts
-// Shared model to manage books and their copy counts
 class LibraryModel: ObservableObject {
-    @Published var books: [Book]
+    @Published var books: [Book] {
+        didSet {
+            saveBooks()
+        }
+    }
     
     init() {
-        self.books = Book.loadBooksFromCSV()
+        // Initialize books with an empty array or load from UserDefaults
+        if let savedBooks = LibraryModel.loadBooks() {
+            self.books = savedBooks
+        } else {
+            self.books = Book.loadBooksFromCSV()
+        }
     }
     
     func updateCopies(for bookId: Int, newCopies: Int) {
@@ -15,15 +22,45 @@ class LibraryModel: ObservableObject {
             books[index].isAvailable = newCopies > 0
         }
     }
+    
+    func updateReservationStatus(for bookId: Int, newStatus: Book.ReservationStatus) {
+        if let index = books.firstIndex(where: { $0.bookId == bookId }) {
+            books[index].reservationStatus = newStatus
+        }
+    }
+    
+    func updateWishlistStatus(for bookId: Int, isWishlisted: Bool) {
+        if let index = books.firstIndex(where: { $0.bookId == bookId }) {
+            books[index].isWishlisted = isWishlisted
+        }
+    }
+    
+    private func saveBooks() {
+        do {
+            let data = try JSONEncoder().encode(books)
+            UserDefaults.standard.set(data, forKey: "savedBooks")
+        } catch {
+            print("Error saving books: \(error)")
+        }
+    }
+    
+    private static func loadBooks() -> [Book]? {
+        guard let data = UserDefaults.standard.data(forKey: "savedBooks") else { return nil }
+        do {
+            let books = try JSONDecoder().decode([Book].self, from: data)
+            return books
+        } catch {
+            print("Error loading books: \(error)")
+            return nil
+        }
+    }
 }
 
 struct BooksView: View {
-    // Use shared model
-    @StateObject private var libraryModel = LibraryModel()
+    @ObservedObject var libraryModel: LibraryModel // Change to @ObservedObject
     @State private var searchText: String = ""
     @State private var sortOption: SortOption = .titleAsc
     
-    // Enum for sort options
     enum SortOption: String, CaseIterable, Identifiable {
         case titleAsc = "Title (A-Z)"
         case titleDesc = "Title (Z-A)"
@@ -35,19 +72,16 @@ struct BooksView: View {
         var id: String { rawValue }
     }
     
-    // Computed property for filtered and sorted books
     private var filteredAndSortedBooks: [Book] {
         var filteredBooks = libraryModel.books
         
-        // Filter based on search text
         if !searchText.isEmpty {
-            filteredBooks = libraryModel.books.filter { book in
+            filteredBooks = filteredBooks.filter { book in
                 book.title.lowercased().contains(searchText.lowercased()) ||
                 book.author.lowercased().contains(searchText.lowercased())
             }
         }
         
-        // Sort based on selected option
         switch sortOption {
         case .titleAsc:
             return filteredBooks.sorted { $0.title.lowercased() < $1.title.lowercased() }
@@ -67,7 +101,6 @@ struct BooksView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                // Header
                 VStack {
                     Image(systemName: "book.fill")
                         .resizable()
@@ -80,7 +113,6 @@ struct BooksView: View {
                         .foregroundStyle(.blue)
                 }
                 
-                // Books List
                 if filteredAndSortedBooks.isEmpty {
                     Text(searchText.isEmpty ? "No books available." : "No books match your search.")
                         .font(.subheadline)
@@ -164,16 +196,7 @@ struct BookRowView: View {
 struct BookDetailView: View {
     let book: Book
     @ObservedObject var libraryModel: LibraryModel
-    @State private var isWishlisted: Bool = false
-    @State private var reservationStatus: ReservationStatus = .notReserved
     @State private var showReserveAlert: Bool = false
-    
-    // Enum for reservation status
-    enum ReservationStatus: String {
-        case notReserved = "Reserve Book"
-        case pending = "Pending"
-        case approved = "Approved"
-    }
     
     var body: some View {
         ScrollView {
@@ -222,18 +245,18 @@ struct BookDetailView: View {
                     HStack(spacing: 20) {
                         // Wishlist Button
                         Button(action: {
-                            isWishlisted.toggle()
+                            libraryModel.updateWishlistStatus(for: book.bookId, isWishlisted: !book.isWishlisted)
                         }) {
-                            Image(systemName: isWishlisted ? "heart.fill" : "heart")
+                            Image(systemName: book.isWishlisted ? "heart.fill" : "heart")
                                 .resizable()
                                 .scaledToFit()
                                 .frame(width: 24, height: 24)
                                 .padding()
-                                .background(isWishlisted ? Color.red.opacity(0.1) : Color.blue.opacity(0.1))
-                                .foregroundStyle(isWishlisted ? .red : .blue)
+                                .background(book.isWishlisted ? Color.red.opacity(0.1) : Color.blue.opacity(0.1))
+                                .foregroundStyle(book.isWishlisted ? .red : .blue)
                                 .clipShape(Circle())
                         }
-                        .accessibilityLabel(isWishlisted ? "Remove from Wishlist" : "Add to Wishlist")
+                        .accessibilityLabel(book.isWishlisted ? "Remove from Wishlist" : "Add to Wishlist")
                         
                         // Share Button
                         Button(action: {
@@ -253,20 +276,20 @@ struct BookDetailView: View {
                     
                     // Reserve Button
                     Button(action: {
-                        if reservationStatus == .notReserved {
-                            reservationStatus = .pending
+                        if book.reservationStatus == .notReserved {
+                            libraryModel.updateReservationStatus(for: book.bookId, newStatus: .pending)
                             libraryModel.updateCopies(for: book.bookId, newCopies: max(0, book.copies - 1))
                             showReserveAlert = true
                         }
                     }) {
-                        Label(reservationStatus.rawValue, systemImage: "book.circle")
+                        Label(book.reservationStatus.rawValue, systemImage: "book.circle")
                             .frame(maxWidth: .infinity)
                             .padding()
                             .background(buttonBackgroundColor)
                             .foregroundStyle(buttonForegroundColor)
                             .clipShape(RoundedRectangle(cornerRadius: 10))
                     }
-                    .disabled(!book.isAvailable || reservationStatus != .notReserved)
+                    .disabled(!book.isAvailable || book.reservationStatus != .notReserved)
                     .alert("Reservation Status", isPresented: $showReserveAlert) {
                         Button("OK", role: .cancel) { }
                     } message: {
@@ -287,7 +310,7 @@ struct BookDetailView: View {
     
     // Computed properties for reserve button styling
     private var buttonBackgroundColor: Color {
-        switch reservationStatus {
+        switch book.reservationStatus {
         case .notReserved:
             return book.isAvailable ? Color.blue.opacity(0.1) : Color.gray.opacity(0.1)
         case .pending:
@@ -298,7 +321,7 @@ struct BookDetailView: View {
     }
     
     private var buttonForegroundColor: Color {
-        switch reservationStatus {
+        switch book.reservationStatus {
         case .notReserved:
             return book.isAvailable ? .blue : .gray
         case .pending:
@@ -324,6 +347,6 @@ struct BookDetailView: View {
 
 struct BooksView_Previews: PreviewProvider {
     static var previews: some View {
-        BooksView()
+        BooksView(libraryModel: LibraryModel())
     }
 }

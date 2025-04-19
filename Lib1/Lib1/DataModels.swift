@@ -22,8 +22,7 @@ struct Announcement: Identifiable, Codable {
 }
 
 
-
-// Book struct with mutable copies and isAvailable
+// Book struct with mutable copies, isAvailable, reservationStatus, and new isWishlisted
 struct Book: Identifiable, Codable {
     let id: UUID
     let bookId: Int
@@ -35,11 +34,19 @@ struct Book: Identifiable, Codable {
     let publisher: String
     let publishedYear: Int
     let shelfLocation: String
-    var isAvailable: Bool // Changed from let to var
+    var isAvailable: Bool
     let status: String
-    var copies: Int // Changed from let to var
-    let dueDate: Date?
-    let releaseDate: Date?
+    var copies: Int
+    var reservationStatus: ReservationStatus
+    var isWishlisted: Bool // New property
+    var dueDate: Date?
+    var releaseDate: Date?
+    
+    enum ReservationStatus: String, Codable {
+        case notReserved = "Reserve Book"
+        case pending = "Pending"
+        case approved = "Approved"
+    }
     
     enum CodingKeys: String, CodingKey {
         case id
@@ -55,8 +62,8 @@ struct Book: Identifiable, Codable {
         case isAvailable = "is_available"
         case status
         case copies
-        case dueDate
-        case releaseDate
+        case reservationStatus
+        case isWishlisted
     }
     
     init(
@@ -73,6 +80,8 @@ struct Book: Identifiable, Codable {
         isAvailable: Bool,
         status: String,
         copies: Int,
+        reservationStatus: ReservationStatus = .notReserved,
+        isWishlisted: Bool = false,
         dueDate: Date? = nil,
         releaseDate: Date? = nil
     ) {
@@ -89,6 +98,8 @@ struct Book: Identifiable, Codable {
         self.isAvailable = isAvailable
         self.status = status
         self.copies = copies
+        self.reservationStatus = reservationStatus
+        self.isWishlisted = isWishlisted
         self.dueDate = dueDate
         self.releaseDate = releaseDate
     }
@@ -97,11 +108,11 @@ struct Book: Identifiable, Codable {
     static func borrowedBooks(isLoggedIn: Bool) -> [Book] {
         return isLoggedIn ? [] : []
     }
-
+    
     static func upcomingBooks(isLoggedIn: Bool) -> [Book] {
         return isLoggedIn ? [] : []
     }
-
+    
     
     static func loadBooksFromCSV() -> [Book] {
         let fileName = "updated_books_dataset"
@@ -174,3 +185,5 @@ struct Book: Identifiable, Codable {
         return books
     }
 }
+    
+

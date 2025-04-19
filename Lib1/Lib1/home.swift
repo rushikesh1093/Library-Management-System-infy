@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct MainView: View {
+    @StateObject private var libraryModel = LibraryModel() // Single source of truth
     @State private var selectedTab: Tab = .home
     
     enum Tab: String {
@@ -18,14 +19,16 @@ struct MainView: View {
                 }
                 .tag(Tab.home)
             
-            BookingView()
+            BookingView(libraryModel: libraryModel) // Pass libraryModel
                 .tabItem {
                     Label("Booking", systemImage: "calendar")
                 }
                 .tag(Tab.booking)
             
-            BooksView()
-                .tabItem {
+            BooksView(libraryModel: libraryModel) // Pass libraryModel
+               
+
+ .tabItem {
                     Label("Books", systemImage: "book.fill")
                 }
                 .tag(Tab.books)
