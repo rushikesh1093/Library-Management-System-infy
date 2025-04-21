@@ -1,4 +1,5 @@
 import Foundation
+import FirebaseFirestore
 
 struct Announcement: Identifiable, Codable {
     let id: UUID
@@ -187,3 +188,77 @@ struct Book: Identifiable, Codable {
 }
     
 
+struct User: Identifiable, Codable {
+    @DocumentID var id: String? // Firestore document ID
+    var name: String
+    var email: String
+    var joinedDate: Date
+    var expiryDate: Date?
+    var wishlist: [String] // Array of book IDs
+    var reservations: [Reservation] // Array of reservation details
+    var donations: [Donation] // Array of donation records
+    var membership: MembershipStatus
+    
+    // Nested struct for reservations
+    struct Reservation: Codable {
+        let bookId: String
+        let reservationDate: Date
+        let status: ReservationStatus
+        
+        enum ReservationStatus: String, Codable {
+            case pending
+            case approved
+            case cancelled
+        }
+    }
+    
+    // Nested struct for donations
+    struct Donation: Codable {
+        let bookId: String
+        let donationDate: Date
+        let quantity: Int
+    }
+    
+    // Enum for membership status
+    enum MembershipStatus: String, Codable {
+        case active = "Active"
+        case expired = "Expired"
+        case nonMember = "Non-Member"
+    }
+    
+    // Coding keys to map to Firestore fields
+    enum CodingKeys: String, CodingKey {
+        case id
+        case name
+        case email
+        case joinedDate = "joinedOn"
+        case expiryDate = "expiryOn"
+        case wishlist
+        case reservations
+        case donations
+        case membership
+    }
+    
+    // Initialize with default values for new users
+    init(
+        id: String,
+        name: String,
+        email: String,
+        joinedDate: Date = Date(),
+        expiryDate: Date? = nil,
+        wishlist: [String] = [],
+        reservations: [Reservation] = [],
+        donations: [Donation] = [],
+        membership: MembershipStatus = .nonMember
+    ) {
+        self.id = id
+        self.name = name
+        self.email = email
+        self.joinedDate = joinedDate
+        self.expiryDate = expiryDate
+        self.wishlist = wishlist
+        self.reservations = reservations
+        self.donations = donations
+        self.membership = membership
+    }
+}
